@@ -14,6 +14,7 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 - **Data Science & ML:** Scikit-learn, Imbalanced-learn, Pandas, NumPy, Plotly, Streamlit
 - **Bazy danych & Cloud:** MySQL / MariaDB, Google Firebase (Firestore, Auth, Hosting)
 - **Mobile & Desktop:** JavaFX 21, Scene Builder, Android SDK, Data Binding
+- **Narzędzia & Metodyki:** Git, GitHub, Gradle, Eclipse, Visual Studio Code, Android Studio
 
 ---
 
