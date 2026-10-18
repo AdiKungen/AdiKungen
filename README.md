@@ -8,12 +8,12 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 ## Stack technologiczny
 
-- **Języki:** Java 17+, Kotlin, Python 3, JavaScript (ES6+), PHP 8, SQL
+- **Języki:** Java 17+, PHP 8, JavaScript (ES6+), Python 3, SQL, Kotlin
 - **Web & Frontend:** Vue.js 3, Three.js / WebGL, HTML5/CSS3, Bootstrap 3/5, Vite
 - **Backend & Enterprise:** Jakarta EE (JSF, PrimeFaces, EJB, JPA/Hibernate), WildFly, Apache, Medoo
 - **Data Science & ML:** Scikit-learn, Imbalanced-learn, Pandas, NumPy, Plotly, Streamlit
 - **Bazy danych & Cloud:** MySQL / MariaDB, Google Firebase (Firestore, Auth, Hosting)
-- **Mobile & Desktop:** Android SDK, Data Binding, JavaFX 21, Scene Builder
+- **Mobile & Desktop:** JavaFX 21, Scene Builder, Android SDK, Data Binding
 
 ---
 
@@ -50,7 +50,7 @@ Aplikacja SPA do ewidencjonowania zasobów sprzętowych i zarządzania dokumenta
 ### [Block Fall 3D - Webowa gra zręcznościowa](https://github.com/AdiKungen/Projekt_IAM_Budny_Adrian_PAW3)
 `JavaScript (ES6+)` | `Three.js` | `WebGL` | `Vite` | `HTML5 / CSS3`
 
-Trójwymiarowa reinterpretacja klasycznej gry zręcznościowej przenosząca tradycyjne mechaniki układania bloków w przestrzeń WebGL o wymiarach $5 \times 12 \times 5$. Projekt implementuje autorski, trójosiowy model detekcji kolizji, dynamiczną pętlę renderowania sceny, manipulację bryłami w czasie rzeczywistym oraz progresywny wzrost poziomu trudności.
+Trójwymiarowa reinterpretacja klasycznej gry zręcznościowej przenosząca tradycyjne mechaniki układania bloków w przestrzeń WebGL o wymiarach 5 × 12 × 5. Projekt implementuje autorski, trójosiowy model detekcji kolizji, dynamiczną pętlę renderowania sceny, manipulację bryłami w czasie rzeczywistym oraz progresywny wzrost poziomu trudności.
 
 **Wersja demonstracyjna (Live Demo):** [adikungen.github.io](https://adikungen.github.io/Projekt_IAM_Budny_Adrian_PAW3/)
 
@@ -63,9 +63,9 @@ Trójwymiarowa reinterpretacja klasycznej gry zręcznościowej przenosząca trad
 ## Backend & Architektura Korporacyjna / JVM
 
 ### [Aplikacja do utworzenia profilu biometrycznego z cech wyznaczonych na podstawie aktywności użytkownika (KDA)](https://github.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1)
-`Java 17` | `JavaFX 21` | `FXML` | `CSS` | `Eclipse IDE`
+`Java 17` | `JavaFX 21` | `FXML` | `CSS` | `Scene Builder`
 
-Aplikacja badawcza zrealizowana w ramach pracy inżynierskiej i magisterskiej, służąca do ciągłej autentykacji użytkowników na podstawie dynamiki pisania na klawiaturze (*Keystroke Dynamics*). Składa się z modularnego potoku analitycznego realizującego: wstępne filtrowanie szumu pomiarowego, ekstrakcję zależności czasowych, eliminację wartości odstających oraz wyliczanie wielowymiarowych wektorów cech biometrycznych.
+Aplikacja badawcza zrealizowana w ramach pracy inżynierskiej i magisterskiej, służąca do tworzenia profilu biometrycznego użytkownika na podstawie dynamiki pisania na klawiaturze (_ang._ Keystroke Dynamics). Składa się z modularnego potoku analitycznego realizującego: wstępne filtrowanie szumu pomiarowego, ekstrakcję zależności czasowych, eliminację wartości odstających oraz wyliczanie wielowymiarowych wektorów cech biometrycznych.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1/main/docs/gifs/demo.gif" alt="KDA Demo" width="700">
@@ -89,7 +89,7 @@ Trójwarstwowa aplikacja korporacyjna (EAR) do zarządzania wypożyczalnią ksi�
 ### [Biometric Classifier - Narzędzie do analizy i klasyfikacji danych biometrycznych](https://github.com/AdiKungen/Projekt_WZKKDB_Budny_Adrian_MUI1)
 `Python 3.13` | `Streamlit` | `Scikit-learn` | `Imbalanced-learn` | `Pandas` | `Plotly Express`
 
-Interaktywne narzędzie analityczne wspierające przejście przez kompletny cykl uczenia maszynowego (ML pipeline) bez pisania kodu. Umożliwia zaawansowany preprocessing danych (imputacja braków, normalizacja, resampling za pomocą `SMOTE`, `ADASYN`, `TomekLinks`), trójwymiarową redukcję wymiarowości `PCA 3D` oraz jednoczesne benchmarkowanie skuteczności klasyfikatorów (`Random Forest`, `k-NN`, `SVM`).
+Interaktywne narzędzie analityczne wspierające przejście przez kompletny cykl uczenia maszynowego (_ang._ ML pipeline) bez pisania kodu. Umożliwia zaawansowany preprocessing danych (imputacja braków, normalizacja, resampling za pomocą `SMOTE`, `ADASYN`, `TomekLinks`), trójwymiarową redukcję wymiarowości `PCA 3D` oraz jednoczesne benchmarkowanie skuteczności klasyfikatorów (`Random Forest`, `k-NN`, `SVM`).
 
 **Wersja demonstracyjna (Live Demo):** [biometric-classifier.streamlit.app](https://biometric-classifier.streamlit.app/) *(Dane testowe: [`demo-data/data.csv`](https://github.com/AdiKungen/Projekt_WZKKDB_Budny_Adrian_MUI1/blob/main/demo-data/data.csv))*
 
