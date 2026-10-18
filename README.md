@@ -2,7 +2,7 @@
 
 Jestem programistą skupiającym się na tworzeniu skalowalnych aplikacji internetowych, architekturze systemów backendowych oraz inżynierii danych i systemach biometrycznych. 
 
-Lubię eksplorować różnorodne ekosystemy technologiczne — od aplikacji korporacyjnych w Javie/Kotlinie, przez web development (Vue.js, PHP, Three.js), aż po analitykę danych i uczenie maszynowe w Pythonie.
+Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporacyjnych w Javie/Kotlinie, przez web development (Vue.js, PHP, Three.js), aż po analitykę danych i uczenie maszynowe w Pythonie.
 
 ---
 
