@@ -21,12 +21,25 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 ## Web Development & Frontend
 
+### [Musicker - Webowa Wypożyczalnia Muzyki](https://github.com/AdiKungen/Projekt_PBAW_Budny_Adrian_PAW3)
+`PHP 8` | `Amelia Framework (MVC)` | `MySQL / MariaDB` | `Medoo ORM` | `Smarty` | `Bootstrap 3`
+
+Webowa platforma subskrypcyjna typu *pay-per-time* realizująca model czasowego licencjonowania utworów audio. System oferuje 4-stopniowy model ról (RBAC), odtwarzacz HTML5 Audio API, panel weryfikacji płatności dla pracowników oraz mechanizm automatycznego blokowania odtwarzania po upływie wykupionego limitu czasowego.
+
+**Wersja demonstracyjna (Live Demo):** [musicker.freedev.app](https://musicker.freedev.app/public) *(Konta testowe: `user` | `user123`, `worker` | `worker123`, `admin` | `admin123`)*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_PBAW_Budny_Adrian_PAW3/main/docs/screenshots/home.png" alt="Musicker" width="700">
+</p>
+
+---
+
 ### [System Zarządzania Inwentarzem (_ang._ Shop Inventory Manager)](https://github.com/AdiKungen/Projekt_PWAG_Budny_Adrian_PAW3)
 `Vue.js 3` | `Firebase Auth` | `Cloud Firestore` | `Bootstrap 5` | `Vite`
 
 Aplikacja SPA do ewidencjonowania zasobów sprzętowych i zarządzania dokumentacją zewnętrzną (faktury, gwarancje). Implementuje autoryzację opartą o tokeny, kontrolę dostępu z podziałem na role (RBAC), ochronę tras (`navigation guards`) oraz automatyczne śledzenie historii modyfikacji rekordów.
 
-**Wersja demonstracyjna (Live Demo):** [system-inwentarz.web.app](https://system-inwentarz.web.app/) *(Konto testowe: `user@user.com` / `user123`)*
+**Wersja demonstracyjna (Live Demo):** [system-inwentarz.web.app](https://system-inwentarz.web.app/) *(Konto testowe: `user@user.com` | `user123`, `worker@worker.com` | `worker123`, `admin@admin.com` | `admin123`)*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_PWAG_Budny_Adrian_PAW3/main/docs/screenshots/inventory-admin.png" alt="Shop Inventory Manager" width="700">
@@ -47,20 +60,18 @@ Trójwymiarowa reinterpretacja klasycznej gry zręcznościowej przenosząca trad
 
 ---
 
-### [Musicker - Webowa Wypożyczalnia Muzyki](https://github.com/AdiKungen/Projekt_PBAW_Budny_Adrian_PAW3)
-`PHP 8` | `Amelia Framework (MVC)` | `MySQL / MariaDB` | `Medoo ORM` | `Smarty` | `Bootstrap 3`
+## Backend & Architektura Korporacyjna / JVM
 
-Webowa platforma subskrypcyjna typu *pay-per-time* realizująca model czasowego licencjonowania utworów audio. System oferuje 4-stopniowy model ról (RBAC), odtwarzacz HTML5 Audio API, panel weryfikacji płatności dla pracowników oraz mechanizm automatycznego blokowania odtwarzania po upływie wykupionego limitu czasowego.
+### [Aplikacja do utworzenia profilu biometrycznego z cech wyznaczonych na podstawie aktywności użytkownika (KDA)](https://github.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1)
+`Java 17` | `JavaFX 21` | `FXML` | `CSS` | `Eclipse IDE`
 
-**Wersja demonstracyjna (Live Demo):** [musicker.freedev.app](https://musicker.freedev.app/public) *(Konto testowe: `user` / `user123`)*
+Aplikacja badawcza zrealizowana w ramach pracy inżynierskiej i magisterskiej, służąca do ciągłej autentykacji użytkowników na podstawie dynamiki pisania na klawiaturze (*Keystroke Dynamics*). Składa się z modularnego potoku analitycznego realizującego: wstępne filtrowanie szumu pomiarowego, ekstrakcję zależności czasowych, eliminację wartości odstających oraz wyliczanie wielowymiarowych wektorów cech biometrycznych.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_PBAW_Budny_Adrian_PAW3/main/docs/screenshots/shop.png" alt="Musicker" width="700">
+  <img src="https://raw.githubusercontent.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1/main/docs/gifs/demo.gif" alt="KDA Demo" width="700">
 </p>
 
 ---
-
-## Backend & Architektura Korporacyjna / JVM
 
 ### [Booker - System Wypożyczalni Książek](https://github.com/AdiKungen/Projekt_JPDSI2_Budny_Adrian_PAW3)
 `Java 17` | `Jakarta EE 10` | `JSF (PrimeFaces 13)` | `EJB 3.x` | `JPA / Hibernate` | `WildFly` | `MariaDB`
@@ -73,17 +84,6 @@ Trójwarstwowa aplikacja korporacyjna (EAR) do zarządzania wypożyczalnią ksi�
 
 ---
 
-### [Aplikacja do utworzenia profilu biometrycznego z cech wyznaczonych na podstawie aktywności użytkownika (KDA)](https://github.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1)
-`Java 17` | `JavaFX 21` | `FXML` | `CSS` | `Eclipse IDE`
-
-Aplikacja badawcza zrealizowana w ramach pracy inżynierskiej i magisterskiej, służąca do ciągłej autentykacji użytkowników na podstawie dynamiki pisania na klawiaturze (*Keystroke Dynamics*). Składa się z modularnego potoku analitycznego realizującego: wstępne filtrowanie szumu pomiarowego, ekstrakcję zależności czasowych, eliminację wartości odstających oraz wyliczanie wielowymiarowych wektorów cech biometrycznych.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1/main/docs/gifs/demo.gif" alt="KDA Profiler Demo" width="700">
-</p>
-
----
-
 ## Data Science & Machine Learning
 
 ### [Biometric Classifier - Narzędzie do analizy i klasyfikacji danych biometrycznych](https://github.com/AdiKungen/Projekt_WZKKDB_Budny_Adrian_MUI1)
@@ -91,10 +91,10 @@ Aplikacja badawcza zrealizowana w ramach pracy inżynierskiej i magisterskiej, s
 
 Interaktywne narzędzie analityczne wspierające przejście przez kompletny cykl uczenia maszynowego (ML pipeline) bez pisania kodu. Umożliwia zaawansowany preprocessing danych (imputacja braków, normalizacja, resampling za pomocą `SMOTE`, `ADASYN`, `TomekLinks`), trójwymiarową redukcję wymiarowości `PCA 3D` oraz jednoczesne benchmarkowanie skuteczności klasyfikatorów (`Random Forest`, `k-NN`, `SVM`).
 
-**Wersja demonstracyjna (Live Demo):** [biometric-classifier.streamlit.app](https://biometric-classifier.streamlit.app/)
+**Wersja demonstracyjna (Live Demo):** [biometric-classifier.streamlit.app](https://biometric-classifier.streamlit.app/) *(Dane testowe: [`demo-data/data.csv`](https://github.com/AdiKungen/Projekt_WZKKDB_Budny_Adrian_MUI1/blob/main/demo-data/data.csv))*
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_WZKKDB_Budny_Adrian_MUI1/main/docs/screenshots/pca_3d.png" alt="Biometric Classifier" width="700">
+  <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_WZKKDB_Budny_Adrian_MUI1/main/docs/screenshots/single_classification.png" alt="Biometric Classifier" width="700">
 </p>
 
 ---
