@@ -1,4 +1,4 @@
-# Cześć, jestem Adrian! 👋
+# Cześć, jestem Adrian!
 
 Jestem programistą skupiającym się na tworzeniu skalowalnych aplikacji internetowych, architekturze systemów backendowych oraz inżynierii danych i systemach biometrycznych. 
 
@@ -37,7 +37,7 @@ Webowa platforma subskrypcyjna typu *pay-per-time* realizująca model czasowego 
 ### [System Zarządzania Inwentarzem (_ang._ Shop Inventory Manager)](https://github.com/AdiKungen/Projekt_PWAG_Budny_Adrian_PAW3)
 `Vue.js 3` | `Firebase Auth` | `Cloud Firestore` | `Bootstrap 5` | `Vite`
 
-Aplikacja SPA do ewidencjonowania zasobów sprzętowych i zarządzania dokumentacją zewnętrzną (faktury, gwarancje). Implementuje autoryzację opartą o tokeny, kontrolę dostępu z podziałem na role (RBAC), ochronę tras (`navigation guards`) oraz automatyczne śledzenie historii modyfikacji rekordów.
+Aplikacja SPA do ewidencjonowania zasobów sprzętowych i zarządzania dokumentacją zewnętrzną (faktury, gwarancje). Implementuje autoryzację opartą na tokenach, kontrolę dostępu z podziałem na role (RBAC), ochronę tras (`navigation guards`) oraz automatyczne śledzenie historii modyfikacji rekordów.
 
 **Wersja demonstracyjna (Live Demo):** [system-inwentarz.web.app](https://system-inwentarz.web.app/) *(Konto testowe: `user@user.com` | `user123`, `admin@admin.com` | `admin123`)*
 
