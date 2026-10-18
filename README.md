@@ -39,7 +39,7 @@ Webowa platforma subskrypcyjna typu *pay-per-time* realizująca model czasowego 
 
 Aplikacja SPA do ewidencjonowania zasobów sprzętowych i zarządzania dokumentacją zewnętrzną (faktury, gwarancje). Implementuje autoryzację opartą o tokeny, kontrolę dostępu z podziałem na role (RBAC), ochronę tras (`navigation guards`) oraz automatyczne śledzenie historii modyfikacji rekordów.
 
-**Wersja demonstracyjna (Live Demo):** [system-inwentarz.web.app](https://system-inwentarz.web.app/) *(Konto testowe: `user@user.com` | `user123`, `worker@worker.com` | `worker123`, `admin@admin.com` | `admin123`)*
+**Wersja demonstracyjna (Live Demo):** [system-inwentarz.web.app](https://system-inwentarz.web.app/) *(Konto testowe: `user@user.com` | `user123`, `admin@admin.com` | `admin123`)*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_PWAG_Budny_Adrian_PAW3/main/docs/screenshots/inventory-admin.png" alt="Shop Inventory Manager" width="700">
