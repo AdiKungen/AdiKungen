@@ -2,7 +2,7 @@
 
 Jestem programistą skupiającym się na tworzeniu skalowalnych aplikacji internetowych, architekturze systemów backendowych oraz inżynierii danych i systemach biometrycznych. 
 
-Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporacyjnych w Javie/Kotlinie, przez web development (Vue.js, PHP, Three.js), aż po analitykę danych i uczenie maszynowe w Pythonie.
+Lubię eksplorować różnorodne ekosystemy technologiczne — od aplikacji korporacyjnych w Javie/Kotlinie, przez web development (Vue.js, PHP, Three.js), aż po analitykę danych i uczenie maszynowe w Pythonie.
 
 ---
 
@@ -17,15 +17,16 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 ---
 
-## Wybrane projekty
+# Wybrane projekty
 
-### Web Development & Frontend
+## Web Development & Frontend
 
-#### [System Zarządzania Inwentarzem (_ang._ Shop Inventory Manager)](https://github.com/AdiKungen/Projekt_PWAG_Budny_Adrian_PAW3)
-> **Aplikacja SPA do ewidencjonowania zasobów sprzętowych z kontrolą uprawnień (RBAC).**
-- **Tech Stack:** `Vue.js 3` `Firebase Auth` `Cloud Firestore` `Bootstrap 5` `Vite`
-- **O projekcie:** System zarządzania inwentarzem magazynowym i dokumentacją zewnętrzną (faktury, gwarancje). Posiada autoryzację opartą o tokeny, strażników tras (`navigation guards`) oraz mechanizm audytu zmian (`serverTimestamp`).
-- **[Wypróbuj wersję demonstracyjną na żywo](https://system-inwentarz.web.app/)** *(Demo: `user@user.com` / `user123`)*
+### [System Zarządzania Inwentarzem (_ang._ Shop Inventory Manager)](https://github.com/AdiKungen/Projekt_PWAG_Budny_Adrian_PAW3)
+`Vue.js 3` | `Firebase Auth` | `Cloud Firestore` | `Bootstrap 5` | `Vite`
+
+Aplikacja SPA do ewidencjonowania zasobów sprzętowych i zarządzania dokumentacją zewnętrzną (faktury, gwarancje). Implementuje autoryzację opartą o tokeny, kontrolę dostępu z podziałem na role (RBAC), ochronę tras (`navigation guards`) oraz automatyczne śledzenie historii modyfikacji rekordów.
+
+**Wersja demonstracyjna (Live Demo):** [system-inwentarz.web.app](https://system-inwentarz.web.app/) *(Konto testowe: `user@user.com` / `user123`)*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_PWAG_Budny_Adrian_PAW3/main/docs/screenshots/inventory-admin.png" alt="Shop Inventory Manager" width="700">
@@ -33,11 +34,12 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 ---
 
-#### [Block Fall 3D - Webowa gra zręcznościowa](https://github.com/AdiKungen/Projekt_IAM_Budny_Adrian_PAW3)
-> **Trójwymiarowa gra logiczno-zręcznościowa w przestrzeni WebGL inspirowana klasycznym Tetrisem.**
-- **Tech Stack:** `JavaScript (ES6+)` `Three.js` `WebGL` `Vite` `HTML5/CSS3`
-- **O projekcie:** Przeniesienie klasycznej mechaniki układania spadających bloków w siatkę trójwymiarową $5 \times 12 \times 5$. Implementacja wieloosiowego modelu kolizji, dynamicznej pętli renderowania, manipulacji bryłami w przestrzeni oraz progresywnego poziomu trudności.
-- **[Zagraj na żywo w przeglądarce](https://adikungen.github.io/Projekt_IAM_Budny_Adrian_PAW3/)**
+### [Block Fall 3D - Webowa gra zręcznościowa](https://github.com/AdiKungen/Projekt_IAM_Budny_Adrian_PAW3)
+`JavaScript (ES6+)` | `Three.js` | `WebGL` | `Vite` | `HTML5 / CSS3`
+
+Trójwymiarowa reinterpretacja klasycznej gry zręcznościowej przenosząca tradycyjne mechaniki układania bloków w przestrzeń WebGL o wymiarach $5 \times 12 \times 5$. Projekt implementuje autorski, trójosiowy model detekcji kolizji, dynamiczną pętlę renderowania sceny, manipulację bryłami w czasie rzeczywistym oraz progresywny wzrost poziomu trudności.
+
+**Wersja demonstracyjna (Live Demo):** [adikungen.github.io](https://adikungen.github.io/Projekt_IAM_Budny_Adrian_PAW3/)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_IAM_Budny_Adrian_PAW3/main/docs/gifs/demo.gif" alt="Block Fall 3D Demo" width="700">
@@ -45,11 +47,12 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 ---
 
-#### [Musicker - Webowa Wypożyczalnia Muzyki](https://github.com/AdiKungen/Projekt_PBAW_Budny_Adrian_PAW3)
-> **Platforma subskrypcyjna typu pay-per-time z wbudowanym odtwarzaczem audio.**
-- **Tech Stack:** `PHP 8` `Amelia Framework (MVC)` `MySQL` `Medoo ORM` `Smarty` `Bootstrap 3`
-- **O projekcie:** Serwis umożliwiający czasowe licencjonowanie utworów muzycznych. Zawiera wielopoziomowy model ról (Gość, Użytkownik, Pracownik, Administrator), panel weryfikacji wpłat oraz mechanizm automatycznego wygaszania dostępu po upływie wykupionego czasu.
-- **[Wypróbuj wersję demonstracyjną na żywo](https://musicker.freedev.app/public)** *(Demo: `user` / `user123`)*
+### [Musicker - Webowa Wypożyczalnia Muzyki](https://github.com/AdiKungen/Projekt_PBAW_Budny_Adrian_PAW3)
+`PHP 8` | `Amelia Framework (MVC)` | `MySQL / MariaDB` | `Medoo ORM` | `Smarty` | `Bootstrap 3`
+
+Webowa platforma subskrypcyjna typu *pay-per-time* realizująca model czasowego licencjonowania utworów audio. System oferuje 4-stopniowy model ról (RBAC), odtwarzacz HTML5 Audio API, panel weryfikacji płatności dla pracowników oraz mechanizm automatycznego blokowania odtwarzania po upływie wykupionego limitu czasowego.
+
+**Wersja demonstracyjna (Live Demo):** [musicker.freedev.app](https://musicker.freedev.app/public) *(Konto testowe: `user` / `user123`)*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_PBAW_Budny_Adrian_PAW3/main/docs/screenshots/shop.png" alt="Musicker" width="700">
@@ -57,12 +60,12 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 ---
 
-### Backend & Architektura Korporacyjna / JVM
+## Backend & Architektura Korporacyjna / JVM
 
-#### [Booker - System Wypożyczalni Książek](https://github.com/AdiKungen/Projekt_JPDSI2_Budny_Adrian_PAW3)
-> **Trójwarstwowa platforma korporacyjna EAR do zarządzania obiegiem woluminów.**
-- **Tech Stack:** `Java 17` `Jakarta EE 10` `JSF (PrimeFaces 13)` `EJB 3.x` `JPA / Hibernate` `WildFly` `MariaDB`
-- **O projekcie:** Architektura korporacyjna oparta na bezstanowych ziarnach sesyjnych (`@Stateless`), leniwym ładowaniu danych (`LazyDataModel`) oraz zachowywaniu stanu widoku. Oferuje pełny cykl życia wypożyczeń: koszyk ze zmiennym zakresem dni, moduł rozliczania zwrotów z naliczaniem kar za opóźnienia oraz administrację kontami.
+### [Booker - System Wypożyczalni Książek](https://github.com/AdiKungen/Projekt_JPDSI2_Budny_Adrian_PAW3)
+`Java 17` | `Jakarta EE 10` | `JSF (PrimeFaces 13)` | `EJB 3.x` | `JPA / Hibernate` | `WildFly` | `MariaDB`
+
+Trójwarstwowa aplikacja korporacyjna (EAR) do zarządzania wypożyczalnią książek oparta na bezstanowych ziarnach sesyjnych (`@Stateless`), integracji JPA z bazą relacyjną oraz dynamicznym interfejsie PrimeFaces. Obsługuje koszyk wypożyczeń z konfigurowalnym czasem najmu, leniwe ładowanie katalogu (`LazyDataModel`) oraz moduł pracowniczy z automatyczną kalkulacją kar za nieterminowe zwroty.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_JPDSI2_Budny_Adrian_PAW3/main/docs/gifs/demo.gif" alt="Booker Demo" width="700">
@@ -70,10 +73,10 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 ---
 
-#### [Aplikacja do utworzenia profilu biometrycznego z cech wyznaczonych na podstawie aktywności użytkownika (KDA)](https://github.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1)
-> **Narzędzie analityczne do weryfikacji tożsamości na podstawie dynamiki pisania na klawiaturze.**
-- **Tech Stack:** `Java 17` `JavaFX 21` `FXML` `CSS` `Eclipse IDE`
-- **O projekcie:** Zaawansowana aplikacja badawcza zrealizowana w ramach pracy inżynierskiej i magisterskiej na Uniwersytecie Śląskim. Obejmuje modularny *pipeline analityczny*: wstępną filtrację szumu i ekstrakcję cech czasowych (`Keystroke Dynamics`), usuwanie wartości odstających oraz wyliczanie wektorów cech na potrzeby systemów ciągłej autentykacji użytkownika.
+### [Aplikacja do utworzenia profilu biometrycznego z cech wyznaczonych na podstawie aktywności użytkownika (KDA)](https://github.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1)
+`Java 17` | `JavaFX 21` | `FXML` | `CSS` | `Eclipse IDE`
+
+Aplikacja badawcza zrealizowana w ramach pracy inżynierskiej i magisterskiej, służąca do ciągłej autentykacji użytkowników na podstawie dynamiki pisania na klawiaturze (*Keystroke Dynamics*). Składa się z modularnego potoku analitycznego realizującego: wstępne filtrowanie szumu pomiarowego, ekstrakcję zależności czasowych, eliminację wartości odstających oraz wyliczanie wielowymiarowych wektorów cech biometrycznych.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1/main/docs/gifs/demo.gif" alt="KDA Profiler Demo" width="700">
@@ -81,13 +84,14 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 ---
 
-### Data Science & Machine Learning
+## Data Science & Machine Learning
 
-#### 🔬 [Biometric Classifier - Narzędzie do analizy i klasyfikacji danych biometrycznych](https://github.com/AdiKungen/Projekt_WZKKDB_Budny_Adrian_MUI1)
-> **Interaktywna platforma analityczna wspierająca pełny pipeline uczenia maszynowego.**
-- **Tech Stack:** `Python 3.13` `Streamlit` `Scikit-learn` `Imbalanced-learn` `Pandas` `Plotly Express`
-- **O projekcie:** Narzędzie typu no-code/low-code do analizy danych tabelarycznych i biometrycznych. Automatyzuje proces imputacji braków, standaryzacji, zaawansowanego równoważenia klas decyzyjnych (`SMOTE`, `ADASYN`, `TomekLinks`), redukcji wymiarowości (`PCA 2D/3D`) oraz równoległego benchmarkowania modeli (`Random Forest`, `k-NN`, `SVM`).
-- **[Wypróbuj wersję demonstracyjną na żywo](https://biometric-classifier.streamlit.app/)**
+### [Biometric Classifier - Narzędzie do analizy i klasyfikacji danych biometrycznych](https://github.com/AdiKungen/Projekt_WZKKDB_Budny_Adrian_MUI1)
+`Python 3.13` | `Streamlit` | `Scikit-learn` | `Imbalanced-learn` | `Pandas` | `Plotly Express`
+
+Interaktywne narzędzie analityczne wspierające przejście przez kompletny cykl uczenia maszynowego (ML pipeline) bez pisania kodu. Umożliwia zaawansowany preprocessing danych (imputacja braków, normalizacja, resampling za pomocą `SMOTE`, `ADASYN`, `TomekLinks`), trójwymiarową redukcję wymiarowości `PCA 3D` oraz jednoczesne benchmarkowanie skuteczności klasyfikatorów (`Random Forest`, `k-NN`, `SVM`).
+
+**Wersja demonstracyjna (Live Demo):** [biometric-classifier.streamlit.app](https://biometric-classifier.streamlit.app/)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_WZKKDB_Budny_Adrian_MUI1/main/docs/screenshots/pca_3d.png" alt="Biometric Classifier" width="700">
@@ -95,12 +99,12 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 ---
 
-### Aplikacje Mobilne (Android)
+## Aplikacje Mobilne (Android)
 
-#### [Asystent Tempa Biegu - Narzędzie do kontroli i stabilizacji prędkości z wykorzystaniem GPS](https://github.com/AdiKungen/Projekt_PAM_Budny_Adrian_PAW3)
-> **Narzędzie telemetryczne GPS wspierające stabilizację tempa i prędkości treningowej.**
-- **Tech Stack:** `Kotlin` `Android SDK (API 19–34)` `Data Binding` `LocationManager` `Haptics / ToneGenerator`
-- **O projekcie:** Aplikacja czasu rzeczywistego ostrzegająca biegacza o wypadnięciu ze zdefiniowanego korytarza prędkości za pomocą dźwięków i wibracji. Wyposażona w algorytmy filtrujące anomalie i zakłócenia sygnału satelitarnego (*anti-teleportation filter*), 3-sekundowy bufor stabilizujący oraz mechanizm oszczędzania energii w cyklu życia aktywności.
+### [Asystent Tempa Biegu - Narzędzie do kontroli i stabilizacji prędkości z wykorzystaniem GPS](https://github.com/AdiKungen/Projekt_PAM_Budny_Adrian_PAW3)
+`Kotlin` | `Android SDK (API 19–34)` | `Data Binding` | `LocationManager` | `Haptics / ToneGenerator`
+
+Aplikacja mobilna wspierająca biegaczy w utrzymaniu stałego tempa poprzez sensoryczny feedback (sygnały dźwiękowe i wibracje) bez konieczności patrzenia na ekran. Wyposażona w algorytm odrzucania anomalii i zakłóceń GPS (*anti-teleportation filter*), 3-sekundowy bufor stabilizacyjny eliminujący fałszywe alerty oraz pełną optymalizację zużycia baterii w cyklu życia aktywności.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_PAM_Budny_Adrian_PAW3/main/docs/gifs/demo.gif" alt="Asystent Tempa Biegu Demo" width="600">
