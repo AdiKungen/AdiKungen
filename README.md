@@ -26,7 +26,7 @@ Lubię eksplorować różnorodne ekosystemy technologiczne od aplikacji korporac
 
 Webowa platforma subskrypcyjna typu *pay-per-time* realizująca model czasowego licencjonowania utworów audio. System oferuje 4-stopniowy model ról (RBAC), odtwarzacz HTML5 Audio API, panel weryfikacji płatności dla pracowników oraz mechanizm automatycznego blokowania odtwarzania po upływie wykupionego limitu czasowego.
 
-**Wersja demonstracyjna (Live Demo):** [musicker.freedev.app](https://musicker.freedev.app/public) *(Konta testowe: `user` | `user123`, `worker` | `worker123`, `admin` | `admin123`)*
+**Wersja demonstracyjna (Live Demo):** [musicker.freedev.app](https://musicker.freedev.app/public) *(Konta testowe: `user` / `user123`, `worker` / `worker123`, `admin` / `admin123`)*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_PBAW_Budny_Adrian_PAW3/main/docs/screenshots/home.png" alt="Musicker" width="700">
@@ -39,7 +39,7 @@ Webowa platforma subskrypcyjna typu *pay-per-time* realizująca model czasowego 
 
 Aplikacja SPA do ewidencjonowania zasobów sprzętowych i zarządzania dokumentacją zewnętrzną (faktury, gwarancje). Implementuje autoryzację opartą na tokenach, kontrolę dostępu z podziałem na role (RBAC), ochronę tras (`navigation guards`) oraz automatyczne śledzenie historii modyfikacji rekordów.
 
-**Wersja demonstracyjna (Live Demo):** [system-inwentarz.web.app](https://system-inwentarz.web.app/) *(Konto testowe: `user@user.com` | `user123`, `admin@admin.com` | `admin123`)*
+**Wersja demonstracyjna (Live Demo):** [system-inwentarz.web.app](https://system-inwentarz.web.app/) *(Konto testowe: `user@user.com` / `user123`, `admin@admin.com` / `admin123`)*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiKungen/Projekt_PWAG_Budny_Adrian_PAW3/main/docs/screenshots/inventory-admin.png" alt="Shop Inventory Manager" width="700">
