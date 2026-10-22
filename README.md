@@ -100,7 +100,7 @@ Interaktywne narzędzie analityczne wspierające przejście przez kompletny cykl
 
 ---
 
-## Aplikacje Mobilne
+## Aplikacje Mobilne (Android)
 
 ### [Asystent Tempa Biegu - Narzędzie do kontroli i stabilizacji prędkości z wykorzystaniem GPS](https://github.com/AdiKungen/Projekt_PAM_Budny_Adrian_PAW3)
 `Kotlin` | `Android SDK (API 19–34)` | `Data Binding` | `LocationManager` | `Haptics / ToneGenerator`
